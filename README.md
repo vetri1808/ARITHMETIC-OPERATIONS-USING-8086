@@ -57,27 +57,26 @@ END
 
 | MEMORY LOCATION (INPUT) | MEMORY LOCATION (OUTPUT) |
 | ----------------------- | ------------------------ |
-| 1200:12 24:1204 |                          |
+|  2000                   |   79                     | 
+|  2001                   |   88                     |
+|  2002                   |   23                     |
+|  2003                   |   02                     |
 
 
-      1201:34               68:1205
-      1202:12               00:1206
-      1203:34               c4:1207                                
+| MEMORY LOCATION (INPUT) | MEMORY LOCATION (OUTPUT) |
+| ----------------------- | ------------------------ |
+|  2004                   |   9C                     | 
+|  2005                   |   8A                     |
+|  2006                   |   00                     |
 
 #### Manual Calculations
 
-![WhatsApp Image 2025-09-14 at 17 54 14_92d7f423](https://github.com/user-attachments/assets/6eb3f13d-6078-4bdc-b027-0c85deada9e0)
+![Manual Calculation Direct Addition](https://github.com/user-attachments/assets/f0ead0cf-d82c-4abe-9ff9-5f10fbaf6a52)
 
-
-
-
-
+---
 ## OUTPUT IMAGE FROM MASM SOFTWARE
 
-<img width="310" height="350" alt="image" src="https://github.com/user-attachments/assets/c6a9df00-b986-4312-9ac2-6817c431efba" />
-
-<img width="794" height="470" alt="Screenshot 2025-09-14 173740" src="https://github.com/user-attachments/assets/c2fd3fe0-e55b-4f7b-a1b2-782f12f7cd34" />
-
+<img width="642" height="432" alt="Indirect Addition" src="https://github.com/user-attachments/assets/80fd9b33-bc63-4ac8-8117-008b9c7c8556" />
 
 
 ## 2. SUBTRACTION
@@ -121,30 +120,26 @@ END
 
 | MEMORY LOCATION (INPUT) | MEMORY LOCATION (OUTPUT) |
 | ----------------------- | ------------------------ |
-|1200:12 24:1204                         |                          |
+|  2000                   |   79                     | 
+|  2001                   |   88                     |
+|  2002                   |   23                     |
+|  2003                   |   02                     |
 
 
-
-      1201:34               68:1205
-      1202:12               00:1206
-      1203:34               c4:1207                              
-
+| MEMORY LOCATION (INPUT) | MEMORY LOCATION (OUTPUT) |
+| ----------------------- | ------------------------ |
+|  2004                   |   56                     | 
+|  2005                   |   86                     |
+|  2006                   |   00                     |
 #### Manual Calculations
 
-![WhatsApp Image 2025-09-14 at 17 50 53_5516c3b1](https://github.com/user-attachments/assets/7809ffa3-4d06-4670-8063-7b9854902247)
+![Indirect Substraction](https://github.com/user-attachments/assets/14c4971e-5ff7-4c52-a290-0758bdfcbc25)
 
 
-
-
-
-
+---
 ## OUTPUT SCREEN FROM MASM SOFTWARE
 
-<img width="330" height="375" alt="image" src="https://github.com/user-attachments/assets/5a1887d7-20c4-480c-b4c6-fdae6f15743d" />
-
-
-<img width="788" height="485" alt="Screenshot 2025-09-14 174417" src="https://github.com/user-attachments/assets/afe83421-2f2b-4600-a7fc-13fb95b06514" />
-
+<img width="642" height="432" alt="Indirect substraction" src="https://github.com/user-attachments/assets/ff315210-1db4-4b78-84ab-c4a89b1edbaf" />
 
 
 ## 3. MULTIPLICATION
@@ -185,28 +180,26 @@ END
 
 | MEMORY LOCATION (INPUT) | MEMORY LOCATION (OUTPUT) |
 | ----------------------- | ------------------------ |
-|  1200:12 24:1204                       |                          |
+|  2000                   |   02                     | 
+|  2001                   |   00                     |
+|  2002                   |   03                     |
+|  2003                   |   00                     |
 
-      1201:34               68:1205
-      1202:12               00:1206
-      1203:34               c4:1207                               
+
+| MEMORY LOCATION (INPUT) | MEMORY LOCATION (OUTPUT) |
+| ----------------------- | ------------------------ |
+|  2004                   |   06                     | 
+|  2005                   |   00                     |
+|  2006                   |   00                     |
 
 #### Manual Calculations
 
-![WhatsApp Image 2025-09-14 at 17 54 30_f1ff59ed](https://github.com/user-attachments/assets/ae93275a-47e0-4dad-8ba0-2458252be492)
+![Manual Calculation Indirect Multiplication](https://github.com/user-attachments/assets/777aadf1-1d9a-420d-a77e-917c9d013cea)
 
-
-
-
+---
 ## OUTPUT SCREEN FROM MASM SOFTWARE
 
-<img width="292" height="299" alt="Screenshot 2025-09-14 174853" src="https://github.com/user-attachments/assets/ee20cc79-bbf7-4136-8935-4742dbc394ee" />
-
-
-
-
-<img width="781" height="485" alt="Screenshot 2025-09-14 175008" src="https://github.com/user-attachments/assets/181da87e-693f-4662-9af4-c4e9f997f2c8" />
-
+<img width="642" height="432" alt="Indirect Multiplication" src="https://github.com/user-attachments/assets/701adf8c-d3b4-4e83-9c86-a38bf51c98b0" />
 
 
 ## 4. DIVISION
@@ -244,29 +237,26 @@ END
 
 | MEMORY LOCATION (INPUT) | MEMORY LOCATION (OUTPUT) |
 | ----------------------- | ------------------------ |
-|  1200:12 24:1204                       |                          |
+|  2000                   |   69                     | 
+|  2001                   |   24                     |
+|  2002                   |   34                     |
+|  2003                   |   12                     |
 
 
-      1201:34               68:1205
-      1202:12               00:1206
-      1203:34               c4:1207                                
-
+| MEMORY LOCATION (INPUT) | MEMORY LOCATION (OUTPUT) |
+| ----------------------- | ------------------------ |
+|  2004                   |   02                     | 
+|  2005                   |   00                     |
+|  2006                   |   01                     |
 #### Manual Calculations
 
-
-![WhatsApp Image 2025-09-14 at 17 51 33_8eaed239](https://github.com/user-attachments/assets/8eeaf6aa-8820-4c4d-b0ed-b808f3895e71)
-
+![Manual Calculation Indirect Division](https://github.com/user-attachments/assets/49e06176-89eb-4f87-bafc-7ae29ef21b82)
 
 
+---
 ## OUTPUT FROM MASM SOFTWARE
 
-<img width="284" height="300" alt="Screenshot 2025-09-14 175205" src="https://github.com/user-attachments/assets/1b289f62-8169-4743-b3f1-e7ce87de1a74" />
-
-
-<img width="790" height="479" alt="Screenshot 2025-09-14 175257" src="https://github.com/user-attachments/assets/090f5bf7-c25a-4512-a7a7-f9bbf88a4b95" />
-
-
-
+<img width="642" height="432" alt="Indirect division" src="https://github.com/user-attachments/assets/5e0f48fd-663e-48b9-802b-48ae1d3f799e" />
 
 
 ## RESULT
